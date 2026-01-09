@@ -1,41 +1,41 @@
 ```
 EchoDraw/
-├── .github/                # CI/CD и шаблоны
-│   └── workflows/          # GitHub Actions YAML для тестов
-│       └── ci.yml          # Пример: build для Flutter, lint для p5.js
-├── docs/                   # Модуль документации и отчётов
-│   ├── README.md           # Обзор docs: как генерировать отчёты
-│   ├── mkdocs.yml          # Конфиг для MkDocs (сайт из Markdown)
-│   ├── reports/            # Отчёты: progress logs, specs
-│   │   └── stage1-report.md # Пример: Отчёт по этапу 1
-│   ├── bom/                # Bill of Materials (CSV/Excel для компонентов)
+├── .github/                # CI/CD and templates
+│   └── workflows/          # GitHub Actions YAML files for testing
+│       └── ci.yml          # Example: build for Flutter, lint for p5.js
+├── docs/                   # Documentation and reports module
+│   ├── README.md           # Overview of docs: how to generate reports
+│   ├── mkdocs.yml          # Configuration for MkDocs (site from Markdown)
+│   ├── reports/            # Reports: progress logs, specifications
+│   │   └── stage1-report.md # Example: Report for stage 1
+│   ├── bom/                # Bill of Materials (CSV/Excel for components)
 │   │   └── hardware-bom.csv
-│   └── images/             # Скриншоты, диаграммы для docs
-├── hardware/               # Модуль 1: Аппаратная часть
-│   ├── README.md           # Инструкции: сборка, pinout NEJE
-│   ├── configs/            # YAML для FluidNC
-│   │   └── config.yaml     # Базовый config для TMC2209
-│   ├── designs/            # 3D-модели (STL, CAD из Fusion360/Tinkercad)
-│   │   └── pen-holder.stl  # Держатель для single-pen
-│   ├── firmware/           # Прошивки (если кастом)
-│   └── tests/              # G-code примеры для тестов
+│   └── images/             # Screenshots and diagrams for documentation
+├── hardware/               # Module 1: Hardware component
+│   ├── README.md           # Instructions: assembly, NEJE pinout
+│   ├── configs/            # YAML files for FluidNC
+│   │   └── config.yaml     # Basic config for TMC2209
+│   ├── designs/            # 3D models (STL, CAD from Fusion360/Tinkercad)
+│   │   └── pen-holder.stl  # Holder for single pen
+│   ├── firmware/           # Custom firmware (if needed)
+│   └── tests/              # G-code examples for testing
 │       └── test-line.gcode
-├── generative-core/        # Модуль 2: p5.js + ml5.js
-│   ├── README.md           # Как запустить: npm install, etc.
-│   ├── src/                # Код: sketches, libraries
-│   │   ├── index.html      # Базовый p5.js canvas
-│   │   ├── sketch.js       # Генератор паттернов (этап 1)
-│   │   └── ml-integration.js # ml5.js для handpose
-│   ├── examples/           # Примеры паттернов (SVG/G-code)
-│   └── package.json        # Зависимости (p5, ml5)
-├── flutter-app/            # Модуль 3: Flutter обёртка
+├── generative-core/        # Module 2: p5.js + ml5.js
+│   ├── README.md           # How to run: npm install, etc.
+│   ├── src/                # Code: sketches, libraries
+│   │   ├── index.html      # Basic p5.js canvas
+│   │   ├── sketch.js       # Pattern generator (stage 1)
+│   │   └── ml-integration.js # ml5.js integration for handpose
+│   ├── examples/           # Pattern examples (SVG/G-code)
+│   └── package.json        # Dependencies (p5, ml5)
+├── flutter-app/            # Module 3: Flutter wrapper
 │   ├── README.md           # Flutter setup: flutter pub get
-│   ├── lib/                # Код: main.dart, screens
-│   │   └── main.dart       # Базовое app (этап 1)
-│   ├── assets/             # Иконки, изображения
-│   └── pubspec.yaml        # Зависимости Flutter
-├── .gitignore              # Игнор: build/, .DS_Store, etc.
-├── LICENSE                 # MIT текст
-├── README.md               # Главный: Обзор проекта, структура, как запустить
-└── CONTRIBUTING.md         # Правила вклада (для группы)
+│   ├── lib/                # Code: main.dart, screens
+│   │   └── main.dart       # Basic app (stage 1)
+│   ├── assets/             # Icons, images
+│   └── pubspec.yaml        # Flutter dependencies
+├── .gitignore              # Ignore: build/, .DS_Store, etc.
+├── LICENSE                 # MIT license text
+├── README.md               # Main: Project overview, structure, how to run
+└── CONTRIBUTING.md         # Contribution guidelines (for the team)
 ```
