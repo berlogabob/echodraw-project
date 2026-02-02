@@ -5,7 +5,6 @@ EchoDraw/
 │       └── ci.yml          # Example: build for Flutter, lint for p5.js
 ├── docs/                   # Documentation and reports module
 │   ├── README.md           # Overview of docs: how to generate reports
-│   ├── mkdocs.yml          # Configuration for MkDocs (site from Markdown)
 │   ├── reports/            # Reports: progress logs, specifications
 │   │   └── stage1-report.md # Example: Report for stage 1
 │   ├── bom/                # Bill of Materials (CSV/Excel for components)
